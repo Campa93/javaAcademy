@@ -4,7 +4,8 @@ public class BottlesTest {
 
     @Test
     public void testSong(){
-        Bottles.writeLyrics();
+        Bottles.writeLyrics(System.out);
+
 
     }
 }
